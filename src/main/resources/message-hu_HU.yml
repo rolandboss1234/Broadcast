@@ -1,0 +1,11 @@
+message:
+  reload:
+    success: "%prefix% #00FF00A konfiguráció, üzenetek és protokollok sikeresen újra lettek töltve."
+    failed: "%prefix% #C00000Hiba történt a konfiguráció vagy üzenet újratöltése közben: %errors%"
+
+  broadcast:
+    success-send: "%prefix% #00FF00Az üzenet sikeresen el lett küldve!"
+    format: "%prefix% %message%"
+
+  no-permissions: "%prefix% #C00000Nincs megfelelő jogosultságod a művelet végrehajtásához! #666666(#FF0000%permission%#666666)"
+  usage: "%prefix% #FF0000Használat: #444444%command%"

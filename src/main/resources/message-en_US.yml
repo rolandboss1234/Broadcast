@@ -1,0 +1,11 @@
+message:
+  reload:
+    success: "%prefix% #00FF00Configuration, messages and protocols successfully reloaded."
+    failed: "%prefix% #C00000An error occurred while reloading the configuration or message: %errors%"
+
+  broadcast:
+    success-send: "%prefix% #00FF00The message has been sent successfully!"
+    format: "%prefix% %message%"
+
+  no-permissions: "%prefix% #C00000You don't have the required permissions to perform this action! #666666(#FF0000%permission%#666666)"
+  usage: "%prefix% #FF0000Usage: #444444%command%"

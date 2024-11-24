@@ -1,0 +1,28 @@
+name: Broadcast
+version: '${project.version}'
+main: rolandboss1234.hu.broadcast.Broadcast
+api-version: 1.20
+authors: [ rolandboss1234 ]
+description: The plugin enables broadcasting, allowing you to send important messages to all players on the server at once.
+website: https://rolandboss1234.hu
+commands:
+  reload:
+    description: Reloads configurations, messages, and protocols.
+    permission: radioaktivzona.developer
+  rl:
+    description: Reloads configurations, messages, and protocols.
+    permission: radioaktivzona.developer
+  broadcast:
+    description: Sends an important announcement to all players on the server.
+    permission: radioaktivzona.admin
+  bc:
+    description: Sends an important announcement to all players on the server.
+    permission: radioaktivzona.admin
+
+permissions:
+  broadcast.developer:
+    description: Provides access to developer commands and events.
+    default: op
+  broadcast.admin:
+    description: Grants privileges for administrative commands and managing events.
+    default: op

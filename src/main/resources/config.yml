@@ -1,0 +1,9 @@
+config:
+  prefix: "#555555[<#FF0000>SERVER</#C00000>#555555] #333333»"
+
+  # format: language_COUNTRY
+  # supported so far: hu_HU, en_US
+  language: en_US
+
+  invalid-parameter: "N/A"
+  default-color: "#FFFFFF"
